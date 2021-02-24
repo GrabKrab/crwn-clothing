@@ -31,7 +31,11 @@ class App extends React.Component {
               id: snapShot.id,
               ...snapShot.data()
             }
-          }, () => console.log(this.state));
+          }, () => {
+            console.log(this.state)
+          });
+        
+          console.log(this.state);
         });
 
       } else {
@@ -43,7 +47,6 @@ class App extends React.Component {
   componentWillUnmount() {
     this.unsubscribeFromAuth();
   }
-
 
   render() {
     return (
