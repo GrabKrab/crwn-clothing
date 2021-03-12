@@ -1,5 +1,5 @@
 .custom-button {
-  min-width: 165px;
+  // min-width: 165px;
   width: auto;
   height: 50px;
   letter-spacing: 0.5px;
@@ -15,6 +15,7 @@
   cursor: pointer;
   display: flex;
   justify-content: center;
+  overflow: hidden;
 
 
   &:hover {
